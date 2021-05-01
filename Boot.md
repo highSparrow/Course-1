@@ -1,29 +1,56 @@
+
+## Preliminary Course Setup
+
+```bash
+ ____  ____  _  _   __  ____  ____ 
+(    \(  __)/ )( \ /  \(  _ \/ ___)
+ ) D ( ) _) \ \/ /(  O )) __/\___ \
+(____/(____) \__/  \__/(__)  (____/
+
+The Ottomatica Distribution ttyS0
+
+v2021.1 - Kernel 5.10.1
+
+ncsu-csc login: ░
+```
+
 ### Communication channels
 
-1. We will use Stack Overflow Teams (a private space for the class) to ask and answer technical questions about the course assignments and topics. 
+1. We will use [Discord](https://discord.com/), a platform supporting instant messaging, group discussion in channels, and even voice, and video broadcasts, for course communication, clarification questions, class activities, and announcements. You can get the Desktop and mobile app or use the web version.  
 
-    Sign up! https://stackoverflow.com/c/ncsu/join
-
-2.  We will use mattermost, an open-source slack alternative, for course communication, clarification questions, in-class discussion, and announcements. You can get the Desktop and mobile app.  
-
-    You can join the team using this signup link:
+    You can join the server using this signup link:
     (_Provided in email._)
 
-### Preliminary Course Setup
+### Development Tools
 
-Do you have a functioning development environment needed for the course? We have a tool that can help check.
+We will be use using node.js through the course.
 
-➡️ Follow the instructions to install [nodejs](https://nodejs.org/en/). 
+2. Follow the instructions to install [nodejs](https://nodejs.org/en/). 
 
-_If running nodejs on Windows, you may want to check the option to install devtools, which will improve your ability to build c/c++ based software on windows_.
+_If running nodejs on Windows, you may want to check the option to install devtools, which will improve your ability to build c/c++ based modules on windows_.
 
-Inside a [terminal](https://github.com/chrisparnin/EngineeringBasics/blob/master/Shells.md#shells), run:
+### Docable Notebooks
+
+We will use notebooks for some learning exercises.
+
+3. Please follow [install instructions](https://github.com/ottomatica/docable-notebooks/blob/master/docs/install.md) to install [docable notebooks](https://github.com/ottomatica/docable-notebooks).
+
+![docable](imgs/docable-term.jpeg)
+
+
+### Opunit checks
+
+Do you have a functioning development environment needed for the course? 
+
+We have a tool that can help check.
+
+4. Inside a [terminal](https://github.com/chrisparnin/EngineeringBasics/blob/master/Shells.md#shells), run:
 
 ```bash
 npm install ottomatica/opunit -g
 ```
 
-Now run:
+5. Now run:
 
 ```bash
 opunit profile CSC-DevOps/profile:519.yml
@@ -35,50 +62,6 @@ You should see something like:
 
 For more details about this report, [see this page](https://github.com/CSC-DevOps/profile). You will want to have as many green checks as possible before starting class.
 
-### Basics
-
-Do you need a refresher on git, shells, virtual machines? 
-
-➡️ Try this workshop:
-https://github.com/chrisparnin/EngineeringBasics
-
-The primary goal of this workshop is for you have to have installed and learned a set of relevant tools (and processes in your head) for software development.
-
-1. Setup  
-   Getting started. Get some tools on your machine. 
-   - [ ] Practice: Installed package manager for os.
-   - [ ] Installed git, java, python2, nodejs
-   - [ ] Optional: Make Windows Awesome
-2. Shells  
-   Basic overview of unix shells, shell programming, and windows shell tips.
-   - [ ] Practice: Run commands to analyze data
-   - [ ] Setup env variable.
-   - [ ] Optional: Write a shell script.
-3. Git  
-   Basic overview of git. Two interactive tutorials for learning commands.
-   - [ ] Complete basic Git tutorial
-   - [ ] Complete 4 levels in *Introduction to Git Commits*
-   - [ ] Practice: Creating a repo
-   - [ ] Optional: Solve all git branching levels
-4. Markdown + Editors  
-   Overview of markdown basics, lists, code, tables. Recommended editors for code. Creating Github Pages.
-   - [ ] Install IDE(s)/Editors
-   - [ ] Practice: Update markdown in README.md
-   - [ ] Practice: Familizarize yourself with some of Eclipse's advanced features and then use them to [fix a few bugs](https://github.ncsu.edu/kpresle-tools/EclipseTutorial).
-   - [ ] Optional: Create a GitHub Pages (gh-pages branch) 
-5. Environments  
-   Tools for creating and managing virtual computing environments.
-   - [ ] Install VirtualBox and Baker
-   - [ ] Create a simple virtual machine
-   - [ ] Optional: Create your own environment
-6. Online Tools  
-   Using Github issues and Trello boards for task management.
-   - [ ] Create issue on GitHub with this checklist (filled in) 
-   - [ ] Try trello
-
-### Advanced
-
-Try a [docker dungeon](https://github.com/CSC-DevOps/DockerDungeons/tree/master/NodeJsSever#docker-dungeon--nodejs).
 
 
 
